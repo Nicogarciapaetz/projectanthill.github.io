@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+   
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+}
+.caja{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+.caja .lista{
+  display: inline-block;
+}
+.caja .lista .link{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  transition: 0.6s ease;
+}
+
+.caja .lista .link:hover{
+  background-color: #fff;
+  color: #000;
+}
+#active .link{
+background-color: #fff;
+color: #000;
+}
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+
+}
+
+.mains{
+  max-width: 1200px;
+  margin: auto;
+}
+
+body, html {
+    margin: auto;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/pexels-andre-moura-2563028.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+  text-align:center;
+}
+h4 {
+  text-align:center;
+}
+
+.space{
+  height: 0.2cm;
+}
+.spaces{
+  height: 0.2cm;
+}
